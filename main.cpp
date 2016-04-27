@@ -46,8 +46,14 @@ class RealmPair {
 			}
 			return editTable[m][n];
 	};
-
 };
+class RealmsGraphNode{
+	public:
+		string charm;
+		vector<RealmGraphNode*> linked_realms;
+		vector<int> num_incants, cost;
+		RealmGraphNode();
+}
 int main() {
 
 
